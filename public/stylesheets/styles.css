@@ -6,14 +6,13 @@
 body {
     background: linear-gradient(rgb(86, 86, 114), rgb(40, 42, 62));
 }
+.nasa-navbar,
+.nasa-footer {
+    background-color:rgb(172, 172, 211);
+}
 .main-container {
     width: 100%;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    padding: 20px 0px;
     color: white;
 }
 .main-header {
@@ -33,12 +32,8 @@ body {
     border-radius: 10px;
 }
 .img-small-text-container {
-    width: 100%;
+    width: 60%;
     height: 30px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    align-items: center;
 }
 .nasa-small-text {
     padding: 0;
