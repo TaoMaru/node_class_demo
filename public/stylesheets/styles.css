@@ -1,3 +1,54 @@
-h1 {
-    color: blueviolet;
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+body {
+    background: linear-gradient(rgb(86, 86, 114), rgb(40, 42, 62));
+}
+.main-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 0px;
+    color: white;
+}
+.main-header {
+    font-size: 24px;
+    text-shadow: 2px 2px 2px black;
+}
+.nasa-header {
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: underline;
+}
+.nasa-img {
+    max-height: 350px;
+    width: auto;
+    box-shadow: 4px 0 8px 0 rgb(159, 165, 200),
+                -4px 0 8px 0 rgb(159, 165, 200);
+    border-radius: 10px;
+}
+.img-small-text-container {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.nasa-small-text {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+.nasa-description {
+    width: 60%;
+    height: fit-content;
+    font-size: 16px;
+    text-align: center;
 }
